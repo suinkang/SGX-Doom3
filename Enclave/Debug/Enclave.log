@@ -1,0 +1,20 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Creating proxy/bridge routines
+  Enclave.cpp
+  Enclave_t.c
+     C:\TTimo-doom\neo\Enclave.lib 라이브러리 및 C:\TTimo-doom\neo\Enclave.exp 개체를 생성하고 있습니다.
+  Enclave.vcxproj -> C:\TTimo-doom\neo\Enclave.dll
+  Enclave.vcxproj -> C:\TTimo-doom\neo\Enclave.pdb (Full PDB)
+  The required memory is 0x163000.
+  Succeed.
+  <EnclaveConfiguration>
+      <ProdID>0</ProdID>
+      <ISVSVN>0</ISVSVN>
+      <StackMaxSize>0x40000</StackMaxSize>
+      <HeapMaxSize>0x100000</HeapMaxSize>
+      <TCSNum>1</TCSNum>
+      <TCSPolicy>1</TCSPolicy>
+      <DisableDebug>0</DisableDebug>
+      <MiscSelect>0</MiscSelect>
+      <MiscMask>0xFFFFFFFF</MiscMask>
+  </EnclaveConfiguration>

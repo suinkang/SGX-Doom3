@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{639416d5-3cfc-48fe-b8d6-620ddafa6460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{40d080af-0a8a-4b27-ba7c-e0c2f5c4ef26}</UniqueIdentifier>
+      <Extensions>cpp;c;edl;def;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d9c19e24-8e83-41fd-aed5-14876bcb51fa}</UniqueIdentifier>
+      <Extensions>h;hpp;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1d34b784-5f84-43c4-bf14-d053ef64f23b}</UniqueIdentifier>
+      <Extensions>rc;xml;pem;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Enclave_t.c">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enclave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enclave_t.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Enclave_private.pem">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Enclave.config.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Enclave.edl">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

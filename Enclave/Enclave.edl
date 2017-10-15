@@ -1,0 +1,14 @@
+enclave {
+    from "sgx_tstdc.edl" import *;
+
+    trusted {
+        /* define ECALLs here. */
+		public int SGX_SetData(int Key, [in, size = Size]  unsigned char * pValue, int Size);
+		public int SGX_GetData(int Key, [out, size = Size] unsigned char * pGet, int Size);
+    };
+
+    untrusted {
+        /* define OCALLs here. */
+
+    };
+};
