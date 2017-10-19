@@ -29,7 +29,6 @@ If you have questions concerning this license or the applicable additional terms
 #ifndef __PHYSICS_PLAYER_H__
 #define __PHYSICS_PLAYER_H__
 
-//#include "../../sys/win32/App.h"
 #include "SGX_V.h"
 
 /*
@@ -143,7 +142,6 @@ private:
 	mutable SGX_V<float>	crouchSpeed;
 	mutable SGX_V<float>	maxStepHeight;
 	mutable SGX_V<float>	maxJumpHeight;
-	//float					maxJumpHeight;
 	int						debugLevel;				// if set, diagnostic output will be printed
 
 	// player input
