@@ -18,7 +18,7 @@ public:
 
 	void operator =(SGX_V<T>& Src);
 
-	//일단 비교연산자를 만들긴 했는데 정말 필요한지는 다시 생각해 봐야 할 것 같다.
+
 	bool operator <(T Value);
 	bool operator >(T Value);
 	bool operator <=(T Value);
@@ -26,9 +26,6 @@ public:
 	bool operator ==(T Value);
 	bool operator !=(T Value);
 
-	//&, |, ^ 등의 논리 연산은 그냥 사용 가능
-
-	//++, --같은 경우는 어떻게 만들어야되는지 생각해볼 것
 	operator T();
 };
 
